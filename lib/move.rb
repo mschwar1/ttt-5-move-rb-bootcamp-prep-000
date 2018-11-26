@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-  input_int = 'user_input'.to_i
-  input_index = input_int - 1
+  converted_input = 'user_input'.to_i
+  input_index = converted_input - 1
   puts input_index
 end
