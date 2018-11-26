@@ -9,6 +9,6 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(user_input)
-  input_index = user_input.to_i - 1
+  input_index = 'user_input'.to_i - 1
   puts input_index
 end
