@@ -10,5 +10,5 @@ end
 
 def input_to_index(user_input)
   input_index = '#{user_input}'.to_i - 1
-  return input_index
+  puts input_index
 end
